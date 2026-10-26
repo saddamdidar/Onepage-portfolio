@@ -1,0 +1,461 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+#header{
+	width: 1620px;
+	height: 80px;
+	background: #808080;
+	margin: 0 auto;
+
+	position: sticky;
+  top: 0;
+  }
+
+.logo{
+		
+		width: 35%;
+		height: 100%;
+		/* background: #dddddd; */
+		float: left;
+}
+
+.logo img{
+	padding: 15px 150px;
+
+}
+
+ .main-menu{
+		
+		width: 65%;
+		height: 100%;
+		/* background: #tomato; */
+		float: left;
+
+}
+
+.menu{
+	list-style-type: none;
+	width: 600px;
+	min-height: 80px;
+	/*background: tomato;*/
+	align-content: center;
+	margin-left: 250px;
+}
+
+
+.menu li{
+	float: left;
+	background: #fff;
+}
+
+
+.menu a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+	background: #000;
+	font-size: 18px;
+
+}
+
+.menu a:hover{
+	background: #12C5EC;
+	color: #000;
+}
+
+
+#hero{
+	background-image: url('../images/hero-2.png');
+	color: #fff;
+	width: 1620px;
+	height: 400px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-positon: top;*/
+
+}
+
+
+#hero h1{
+	padding-left: 500px;
+	padding-top: 100px;
+}
+
+
+
+#hero p{
+	width: 780px;
+	padding-left: 500px;
+	padding-top: 10px;
+	padding-right: 100px;
+	font-size: 18px;
+	text-align: justify;
+}
+
+
+#hero button{
+	margin-left: 500px;
+	margin-top: 25px;
+	padding: 15px 35px;
+	border-radius: 35px;
+	border: 5px solid #12C5EC;
+	color: #000;
+	background: #fff;
+	font-size: 15px;
+}
+
+#hero button:hover{
+	
+	color: #fff;
+	background: #12C5EC;
+	border: 5px solid #fff;
+
+}
+
+#about{
+	background: #eeeeee;
+	color: #fff;
+	width: 1620px;
+	height: 380px;
+	margin: 0 auto;
+}
+
+.about-image{
+	/*position: relative;*/
+	width: 40%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+.about-image img{
+	height: 380px;
+	align-items: center;
+	padding-left: 150px;
+}
+
+
+.about-content{
+	width: 60%;
+	height: 100%;
+	margin-left: 100px;
+	color: #000;
+	padding:50px 10px 10px 600px;
+	
+}
+
+.about-content h1{
+}
+
+
+.about-content p{
+	width: 80%;
+	margin-top: 30px;
+	text-align: justify;
+	/*margin: 10px 0 0 150px;*/
+
+}
+
+.about-content button{
+	margin: 15px 0 0 10px;
+	padding: 10px 20px;
+}
+
+
+#service{
+	width: 1620px;
+	height: 380px;
+	margin: 0 auto;
+	background: #eeeeee;
+	padding-top: 20px;
+}
+
+#service img{
+	width: 100px;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 220px;
+}
+
+.service-1{
+	width: 536px;
+	height: 90%;
+	border:1px solid #fff;
+	float: left;
+}
+
+
+.service-1 h2{
+	text-align: center;
+}
+
+.service-1 p{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.service-1 button{
+	margin-top: 10px;
+	margin-left: 220px;
+	padding: 10px 45px;
+	background: #12C5EC;
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.service-1 button:hover{
+	
+	background: #fff;
+	color: #12C5EC;
+	font-size: 18px;
+
+}
+
+.service-2{
+	width: 536px;
+	height: 90%;
+	border:1px solid #fff;
+	float: left;
+}
+
+
+.service-2 h2{
+	text-align: center;
+}
+
+.service-2 p{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.service-2 button{
+	margin-top: 10px;
+	margin-left: 220px;
+	padding: 10px 45px;
+	background: #12C5EC;
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.service-2 button:hover{
+	
+	background: #fff;
+	color: #12C5EC;
+	font-size: 18px;
+
+}
+
+.service-3{
+	width: 536px;
+	height: 90%;
+	border:1px solid #fff;
+	float: left;
+}
+
+
+
+.service-3 h2{
+	text-align: center;
+}
+
+.service-3 p{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.service-3 button{
+	margin-top: 10px;
+	margin-left: 220px;
+	padding: 10px 45px;
+	background: #12C5EC;
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.service-3 button:hover{
+	
+	background: #fff;
+	color: #12C5EC;
+	font-size: 18px;
+
+}
+
+#blog{
+	width: 1620px;
+	height: 480px;
+	margin: 0 auto;
+	background: #dddddd;
+	padding-top: 20px;
+
+}
+
+
+#blog h2{
+	text-align: center;
+	
+}
+
+#blog p{
+	margin: 5px 40px 10px 40px;
+}
+
+
+#blog button{
+	margin-left:100px ;
+	padding: 10px 20px;
+}
+
+.blog-container{
+	margin: 0 auto;
+
+}
+
+
+.blog-1{
+	width: 300px;
+	height: 320px;
+	float: left;
+	background-image: url('../images/blog/blog-1.png');
+	padding: 20px;
+	color: #fff;
+	margin: 0 10px 0 90px;
+	
+}
+
+
+
+.blog-2{
+	width: 300px;
+	height: 320px;
+	float: left;
+	background-image: url('../images/blog/blog-2.png');
+	padding: 20px;
+	color: #fff;
+	margin: 0 10px;
+}
+
+
+.blog-3{
+	width: 300px;
+	height: 320px;
+	float: left;
+	background-image: url('../images/blog/blog-3.png');
+	padding: 20px;
+	color: #fff;
+	margin: 0 10px;
+}
+
+
+.blog-4{
+	width: 300px;
+	height: 320px;
+	float: left;
+	background-image: url('../images/blog/blog-4.png');
+	padding: 20px;
+	color: #fff;
+	margin: 0 30px 0 10px;
+}
+
+
+#contact{
+	width: 1620px;
+	height: 390px;
+	margin: 0 auto;
+	background: #tomato;
+}
+
+
+.contact-image{
+	width: 22%;
+	height: 100%;
+	float: left;
+	background: #000;
+	border-top-right-radius: 35px;
+}
+
+.contact-image img{
+	height: 390px;
+	/* border-radius: 30px; */
+}
+
+
+/* Add a background color and some padding around the form */
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left: 10px;
+  width: 75%;
+	height: 100%;
+	float: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+#map{
+	width: 1620px;
+	margin: 0 auto;
+}
+
+
+#footer{
+	width: 1620px;
+	height: 100px;
+	margin: 0 auto;
+	background: #000;
+}
+
+
+.footer-logo{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding: 30px 5px 10px 30px;
+}
+
+.footer-copy{
+	width: 70%;
+	height: 100%;
+	color: #fff;
+	padding: 30px 30px;
+	text-align: center;
+	font-size: 22px;
+}
